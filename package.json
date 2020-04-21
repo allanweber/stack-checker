@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build-prd": "ng build --configuration=production",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,7 +22,8 @@
     "@angular/router": "~9.1.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "bulma": "^0.8.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.1",
